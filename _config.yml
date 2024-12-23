@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-remote-theme
 title: Suchita Kulkarni
 logo: /assets/img/kulkarni_photo.jpg 
 description: Photo of Dr. Kulkarni
