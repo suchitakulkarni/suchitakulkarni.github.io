@@ -13,10 +13,10 @@ platforms:
     link: https://www.linkedin.com/in/suchitakulkarni
 show_downloads: false
 navigation:
-  - name: Readme
+  - name: Homepage
+    link: ./index.html
+- name: Data Science projects
     link: ./index.html
     sublist:
-      - name: Image
-        link: ./index.html#small-image
-  - name: Taylor Swift
-    link: ./Taylor_Swift_dataanalysis.html
+      - name: Taylor Swift music analysis
+        link: ./Taylor_Swift_dataanalysis.html
