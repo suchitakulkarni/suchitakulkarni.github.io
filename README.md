@@ -30,7 +30,7 @@
 
 ## Data Science Projects
 ### Data analysis of Taylor Swift's music  
-![Documentation and code](Taylor_Swift_dataanalysis.html)
+[Documentation and code](./Taylor_Swift_dataanalysis.html)
 
 ## Talks & Lectures
 
