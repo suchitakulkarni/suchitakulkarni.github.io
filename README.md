@@ -1,11 +1,10 @@
 # Data Scientist
 
-#### Technical Skills: Python (incl. scipy, numpy, pandas, jupyter notebook), Mathematica, Linux, Mac, GitHub, C++
+#### Technical Skills: Python (incl. scipy, numpy, pandas, jupyter notebook), Mathematica, Linux, Mac, GitHub, C++, LaTex
 
 ## Education
 - Ph.D., Physics | The University of Bonn (_August 2007_)								       		
 - M.Sc., Physics	| The University Mumbai (_May 2006_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
 
 ## Work Experience
 **Junior group leader @ University of Graz, Austria (_September 2020 - Present_)**
@@ -17,7 +16,7 @@
 - Keynote speaker at international conferences
 
 **Eliase-Richter Fellow @ Austrian Academy of Sciences, Vienna, Austria (_September 2017 - August 2020_)**
-- hird party funding of approx 390K Euro
+- Third party funding of approx 390K Euro
 - Statistical analysis, data visualisation, quantitative comparison with predictions of theoretical models of dark matter
 - Lead developer of software tool SModelS
 - Supervision, mentoring of five master students
@@ -30,6 +29,12 @@
 - Participated in international CERN Large Hadron Collider collaboration
 
 ## Projects
+  
+
+## Talks & Lectures
+
+
+## Publications
 ### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $\sqrt{s} = 13$ TeV
 [Publication](https://doi.org/10.1007/JHEP05(2023)228)
 
@@ -42,12 +47,7 @@ Co-ordinated a team of 50+ scientists to collect, organise and analyse the field
 
 ### Constraining new physics with SModelS version 2
 [Publication](https://doi.org/10.1007/JHEP08(2022)068) 
-Designed a new and improved version of public code SMoldeS written in ***Python***. The code accounts for over hundres new physics searches and accelerates the process of understanding the nature of dark matter.  
 
-## Talks & Lectures
-
-
-## Publications
-
+Designed a new and improved version of public code SMoldeS written in **Python**. The code accounts for over hundres new physics searches and accelerates the process of understanding the nature of dark matter.
 
 - [Data Science Blog](https://medium.com/@shawhin)
