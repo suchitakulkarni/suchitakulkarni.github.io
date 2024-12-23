@@ -47,7 +47,7 @@
 
 
 ## Publications
-### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $\sqrt{s} = 13$ TeV
+### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $$\sqrt{s} = 13$$ TeV
 [Publication](https://doi.org/10.1007/JHEP05(2023)228)
 
 Performed numerical simulations and created visualisations using **Python** for search optimisation. This led to more refined definitions of search parameters and impacted fundamental search and data collection design. 
