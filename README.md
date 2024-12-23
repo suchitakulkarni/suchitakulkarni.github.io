@@ -32,8 +32,6 @@
 ### Data analysis of Taylor Swift's music  
 [Documentation and code](./Taylor_Swift_dataanalysis.html)
 
-## Talks & Lectures
-
 
 ## Publications
 ### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $\sqrt{s} = 13$ TeV
@@ -50,5 +48,3 @@ Performed numerical simulations and created visualisations using **Python** for 
 [Publication](https://doi.org/10.1007/JHEP08(2022)068) 
 
 Designed a new and improved version of public code [SMoldeS](https://smodels.github.io/) written in **Python**. The code accounts for over hundres new physics searches and accelerates the process of understanding the nature of dark matter.
-
-- [Data Science Blog](https://medium.com/@shawhin)
