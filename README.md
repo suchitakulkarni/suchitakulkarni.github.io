@@ -3,6 +3,7 @@
 #### Technical Skills: Python (incl. scipy, numpy, pandas, jupyter notebook), Mathematica, Linux, Mac, GitHub, C++, LaTex
 
 ## Education
+- Habilitation, Physics | The University of Graz (_June 2021_)  		
 - Ph.D., Physics | The University of Bonn (_August 2007_)								       		
 - M.Sc., Physics	| The University Mumbai (_May 2006_)	 			        		
 
@@ -27,6 +28,12 @@
 - Supervised master students
 - Presented research at conferences and seminars
 - Participated in international CERN Large Hadron Collider collaboration
+  
+**Postdoctoral Research Fellow @ CNRS, Grenoble, France (_September 2011 - August 2024_)**
+- Conducted research on dark matter
+- Organised seminars
+- Supervised master students
+- Presented research at conferences and seminars
 
 ## Data Science Projects
 ### Data analysis of Taylor Swift's music  
