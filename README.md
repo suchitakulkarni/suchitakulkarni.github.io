@@ -13,7 +13,7 @@
 - Independent project initiation and development
 - Lead a team of PhD, master, bachelor students
 - Taught master level courses
-- Numerical and analytical modelling of dark matter
+- Numerical, analytical modelling of dark matter and associated data visualisation
 - Keynote speaker at international conferences
 
 **Eliase-Richter Fellow @ Austrian Academy of Sciences, Vienna, Austria (_September 2017 - August 2020_)**
