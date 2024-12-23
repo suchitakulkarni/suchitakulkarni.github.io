@@ -12,3 +12,11 @@ platforms:
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/suchitakulkarni
 show_downloads: false
+navigation:
+  - name: Readme
+    link: ./index.html
+    sublist:
+      - name: Image
+        link: ./index.html#small-image
+  - name: Taylor Swift
+    link: ./Taylor_Swift_dataanalysis.html
