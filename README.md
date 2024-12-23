@@ -35,6 +35,7 @@
 - Organised seminars
 - Supervised master students
 - Presented research at conferences and seminars
+- Lead developer of public data analysis code [SMoldeS](https://smodels.github.io/) written in **Python**
 
 ## Data Science Projects
 ### Data analysis of Taylor Swift's music  
