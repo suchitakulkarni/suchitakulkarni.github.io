@@ -44,11 +44,11 @@ Performed numerical simulations and created visualisations using **Python** for 
 ### Theory, phenomenology, and experimental avenues for dark showers: a Snowmass 2021 report
 [Publication](https://doi.org/10.1140/epjc/s10052-022-11048-8)
 
-Co-ordinated a team of 50+ scientists to collect, organise and analyse the field of specific dark matter models. Created and edited final report design. Contributed to the report by bringing in fundamental understanding of these dark matter models and provided new direction to the field. 
+**Co-ordinated** a team of 50+ scientists to collect, organise and analyse the field of specific dark matter models. **Created and edited** final report design. Contributed to the report by bringing in fundamental understanding of these dark matter models and provided new direction to the field. 
 
 ### Constraining new physics with SModelS version 2
 [Publication](https://doi.org/10.1007/JHEP08(2022)068) 
 
-Designed a new and improved version of public code SMoldeS written in **Python**. The code accounts for over hundres new physics searches and accelerates the process of understanding the nature of dark matter.
+Designed a new and improved version of public code [SMoldeS](https://smodels.github.io/) written in **Python**. The code accounts for over hundres new physics searches and accelerates the process of understanding the nature of dark matter.
 
 - [Data Science Blog](https://medium.com/@shawhin)
