@@ -1,5 +1,5 @@
 title: Suchita Kulkarni
-logo: /assets/img/kulkarni_photo.jpg {: width="250" }
+logo: /assets/img/kulkarni_photo.jpg 
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
