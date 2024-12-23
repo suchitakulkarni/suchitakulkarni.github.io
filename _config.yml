@@ -15,6 +15,6 @@ show_downloads: false
 navigation:
   - name: Homepage
     link: ./index.html
-- name: Taylor Swift music analysis
+  - name: Taylor Swift music analysis
     link: ./Taylor_Swift_dataanalysis.html
 
