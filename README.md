@@ -28,8 +28,9 @@
 - Presented research at conferences and seminars
 - Participated in international CERN Large Hadron Collider collaboration
 
-## Projects
-  
+## Data Science Projects
+### Data analysis of Taylor Swift's music  
+![Documentation and code](Taylor_Swift_dataanalysis.html)
 
 ## Talks & Lectures
 
