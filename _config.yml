@@ -4,6 +4,11 @@ remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 title: Suchita Kulkarni
 logo: /assets/img/kulkarni_photo.jpg 
 description: Photo of Dr. Kulkarni
-linkedin_username: suchitakulkarni
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/suchitakulkarni
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/suchitakulkarni
 show_downloads: false
-theme: jekyll-theme-minimal
