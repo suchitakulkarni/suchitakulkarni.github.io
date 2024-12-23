@@ -39,11 +39,12 @@
 
 ## Data Science Projects
 ### Data analysis of Taylor Swift's music  
+- [Documentation and code](./Taylor_Swift_dataanalysis.html)
 - Initial assessment of Taylor Swift spotify music records
 - Aim:
   * To undestand the nature of data and perform statistical analysis to gain insights into correlations
   * To create basic visualisations and summaries in form of histograms, scatter plots and pandas summary dataframes
-[Documentation and code](./Taylor_Swift_dataanalysis.html)
+
 
 
 ## Publications
