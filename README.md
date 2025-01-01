@@ -17,7 +17,7 @@
 - Development of data analsis pipelines
 - Keynote speaker at international conferences
 
-**Eliase-Richter Fellow @ Austrian Academy of Sciences, Vienna, Austria (_September 2017 - August 2020_)**
+**Elise-Richter Fellow @ Austrian Academy of Sciences, Vienna, Austria (_September 2017 - August 2020_)**
 - Third party funding of approx 390K Euro
 - Statistical analysis, data visualisation, quantitative comparison with predictions of theoretical models of dark matter
 - Lead developer of software tool SModelS
@@ -44,6 +44,13 @@
 - Aims:
   * To undestand the nature of data and perform statistical analysis to gain insights into correlations
   * To create basic visualisations and summaries in form of histograms, scatter plots and pandas summary dataframes
+
+### Data analysis of Taylor Swift's music  (Finale)
+- [Documentation and code](./T_Swift_Finale.html)
+- Interactive plots for data visualisation and clustering analysis for song suggestions 
+- Aims:
+  * To understand the behaviour of widgets and correspondingly use it to create interactive plots 
+  * To perform elementary clustering exercises via KMeans algorithm in order to predict songs the user might want to listen to given their choice of song. 
 
 
 ## Publications
