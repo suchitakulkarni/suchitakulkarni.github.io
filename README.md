@@ -38,7 +38,7 @@
 - Lead developer of public data analysis code [SMoldeS](https://smodels.github.io/) written in **Python**
 
 ## Data Science Projects
-### Data analysis of Taylor Swift's music  
+### Data analysis of Taylor Swift's music (EDA) 
 - [Documentation and code](./Taylor_Swift_dataanalysis.html)
 - Initial assessment of Taylor Swift spotify music records
 - Aims:
