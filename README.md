@@ -38,20 +38,22 @@
 - Lead developer of public data analysis code [SMoldeS](https://smodels.github.io/) written in **Python**
 
 ## Data Science Projects
-### Data analysis of Taylor Swift's music (EDA) 
+### Taylor Swift music analysis and content recommendation system
+#### Data analysis of Taylor Swift's music (EDA) 
 - [Documentation and code](./Taylor_Swift_dataanalysis.html)
 - Initial assessment of Taylor Swift spotify music records
 - Aims:
   * To undestand the nature of data and perform statistical analysis to gain insights into correlations
   * To create basic visualisations and summaries in form of histograms, scatter plots and pandas summary dataframes
 
-### Data analysis of Taylor Swift's music  (Finale)
+#### Data analysis of Taylor Swift's music  (Finale)
 - [Documentation and code](./T_Swift_Finale.html)
 - Interactive plots for data visualisation and clustering analysis for song suggestions 
 - Aims:
   * To understand the behaviour of widgets and correspondingly use it to create interactive plots 
   * To perform elementary clustering exercises via KMeans algorithm in order to predict songs the user might want to listen to given their choice of song. 
 
+### PCOS diagnosis 
 
 ## Publications
 ### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $$\sqrt{s} = 13$$ TeV
