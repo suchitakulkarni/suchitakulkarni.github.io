@@ -53,7 +53,7 @@
   * To perform elementary clustering exercises via KMeans algorithm in order to predict songs the user might want to listen to given their choice of song. 
 
 ## Data Science Notes
-- Notes on regression [./data_science_notes/Machine learning Regressers 179e16e50aa3807f9b3ddafbf90d0526.html]
+- Notes on regression [link](./data_science_notes/Machine learning Regressers 179e16e50aa3807f9b3ddafbf90d0526.html)
 
 ## Publications
 ### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $$\sqrt{s} = 13$$ TeV
