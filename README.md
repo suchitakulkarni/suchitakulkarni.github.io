@@ -1,6 +1,6 @@
 # Data Scientist
 
-#### Technical Skills: Python (incl. scipy, numpy, pandas, jupyter notebook), Mathematica, Linux, Mac, GitHub, C++, LaTex
+#### Technical Skills: Python (incl. scipy, numpy, pandas, scikit-learn, jupyter notebook), Mathematica, Linux, Mac, GitHub, C++, LaTex
 
 ## Education
 - Habilitation, Physics | The University of Graz (_June 2021_)  		
