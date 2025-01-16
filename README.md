@@ -57,9 +57,9 @@
 - [Documentation and code](./projects/T_Swift_Finale.html)
 - Interactive plots for data visualisation
 - Aims: 
- * To understand correlation analysis 
- * To work with binary data
- * To create a first version of PCOS prediction system using random forrest classifier
+  * To understand correlation analysis 
+  * To work with binary data
+  * To create a first version of PCOS prediction system using random forrest classifier
 
 ## Publications
 ### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $$\sqrt{s} = 13$$ TeV
