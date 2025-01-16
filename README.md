@@ -46,7 +46,7 @@
   * To undestand the nature of data and perform statistical analysis to gain insights into correlations
   * To create basic visualisations and summaries in form of histograms, scatter plots and pandas summary dataframes
 
-#### Data analysis of Taylor Swift's music  (Finale)
+#### Data analysis of Taylor Swift's music  (Content based recommendation system)
 - [Documentation and code](./projects/T_Swift_Finale.html)
 - Interactive plots for data visualisation and clustering analysis for song suggestions 
 - Aims:
