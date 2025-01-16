@@ -16,5 +16,10 @@ navigation:
   - name: Homepage
     link: ./index.html
   - name: Taylor Swift music analysis
-    link: ./Taylor_Swift_dataanalysis.html
+    link: ./projects/Taylor_Swift_dataanalysis.html
+  - name: Taylor Swift music analysis (content recommendation system)
+    link: ./projects/T_Swift_Finale.html
+  - name: PCOS analysis
+    link: ./projects/PCOS.html
+    
 
