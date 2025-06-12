@@ -8,14 +8,11 @@
 - M.Sc., Physics	| The University Mumbai (_May 2006_)	 			        		
 
 ## Work Experience
-**Junior group leader @ University of Graz, Austria (_September 2020 - Present_)**
-- Third party funding of approx 1M Euro
-- Independent project initiation and development
-- Lead a team of PhD, master, bachelor students
-- Taught master level courses
-- Numerical, analytical modelling of dark matter and associated data visualisation
-- Development of data analsis pipelines
-- Keynote speaker at international conferences
+**Group leader @ University of Graz, Austria (_September 2020 - Present_)**
+- Research group head: Led a team connecting theoretical models with experimental collider data.
+- Managed €1M in project funding and supervised 4 researchers (2 PhDs, 1 MSc, 1 BSc).
+- Designed and taught 4 graduate-level courses on data modeling and theoretical physics.
+- Delivered 20+ invited talks and published 10+ peer-reviewed papers.
 
 **Elise-Richter Fellow @ Austrian Academy of Sciences, Vienna, Austria (_September 2017 - August 2020_)**
 - Third party funding of approx 390K Euro
