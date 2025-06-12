@@ -35,6 +35,29 @@
 - Lead developer of public data analysis code [SMoldeS](https://smodels.github.io/) written in **Python**
 
 ## Data Science Projects
+### Time series analysis - Remaining unit life for NASA dataset 
+- Built a XGBoost and Optuna integrated regression analysis to predict remaining unit life for NASA engines 
+- [Documentation and code](https://nasaruldashboard.streamlit.app/)
+- Aims: 
+  * Built consistent time series analysis using sliding window techniques
+  * Used correct labeled dataset to preserve the unit structures 
+  * Tuned hyper-parameters using Optuna and estimated quantiles 
+
+### Anomaly Detection – LSTM Autoencoder App
+- [Documentation and code](https://pinnlearning.streamlit.app/)
+- Built a Streamlit demo using LSTM autoencoder to detect anomalies in physical system signals
+- Aims:
+  * To understand and explain role of several hyper-parameters in an LSTM anomaly detection network 
+  * To construct a first physics inspired neutral network
+
+### PCOS diagnosis
+- [Documentation and code](./projects/PCOS.html)
+- Interactive plots for data visualisation
+- Aims: 
+  * To understand correlation analysis 
+  * To work with binary data
+  * To create a first version of PCOS prediction system using random forrest classifier
+
 ### Taylor Swift music analysis and content recommendation system
 #### Data analysis of Taylor Swift's music (EDA) 
 - [Documentation and code](./projects/Taylor_Swift_dataanalysis.html)
@@ -49,14 +72,6 @@
 - Aims:
   * To understand the behaviour of widgets and correspondingly use it to create interactive plots 
   * To perform elementary clustering exercises via KMeans algorithm in order to predict songs the user might want to listen to given their choice of song. 
-
-### PCOS diagnosis
-- [Documentation and code](./projects/T_Swift_Finale.html)
-- Interactive plots for data visualisation
-- Aims: 
-  * To understand correlation analysis 
-  * To work with binary data
-  * To create a first version of PCOS prediction system using random forrest classifier
 
 ## Publications
 ### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $$\sqrt{s} = 13$$ TeV
