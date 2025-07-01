@@ -21,5 +21,8 @@ navigation:
     link: ./projects/T_Swift_Finale.html
   - name: PCOS analysis
     link: ./projects/PCOS.html
+  - name: Anomaly detection app
+    link: https://pinnlearning.streamlit.app/
+    
     
 
