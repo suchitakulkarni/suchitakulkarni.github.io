@@ -35,9 +35,9 @@
 - Lead developer of public data analysis code [SMoldeS](https://smodels.github.io/) written in **Python**
 
 ## Data Science Projects
-### Time series analysis - Remaining unit life for NASA dataset 
+### Time series analysis - Remaining unit life for NASA dataset
+- [Documentation and code](https://nasaruldashboard.streamlit.app/) 
 - Built a XGBoost and Optuna integrated regression analysis to predict remaining unit life for NASA engines 
-- [Documentation and code](https://nasaruldashboard.streamlit.app/)
 - Aims: 
   * Built consistent time series analysis using sliding window techniques
   * Used correct labeled dataset to preserve the unit structures 

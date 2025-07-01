@@ -23,6 +23,8 @@ navigation:
     link: ./projects/PCOS.html
   - name: Anomaly detection app
     link: https://pinnlearning.streamlit.app/
+  - name: predictive maintainance (NASA remaining unit life)
+    link: https://nasaruldashboard.streamlit.app/
     
     
 
