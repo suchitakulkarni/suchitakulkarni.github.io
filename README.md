@@ -8,7 +8,7 @@ I am a machine learning engineer with a background in theoretical physics, worki
 - M.Sc., Physics	| The University Mumbai (_May 2006_)	 			        		
 
 ## Work Experience
-**ML and Physics Research Leadership (2011–Present)
+**ML and Physics Research Leadership (2011–Present)**
 - Universities and research institutes in Austria, France, and Germany
 - Led multi-year projects connecting physics-based models with large-scale experimental and simulated data.
 - Managed over €1.3M in competitive funding and supervised interdisciplinary teams.
