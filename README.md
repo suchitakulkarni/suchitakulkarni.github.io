@@ -50,6 +50,7 @@ Austria, France, Germany
 - Invited and meetup talks on physics-informed ML
 - Recent online talk on PIML for dynamical systems. [Slides](https://github.com/suchitakulkarni/PINN_talk/blob/main/PINN_slides.pdf)
 - Member of Styrian vision group of the Women in AI, Austria 
+- Created AI-generated TedXGraz theme song; documented process in a [LinkedIn article](https://www.linkedin.com/pulse/ai-composed-song-unexpected-team-sideways-entry-onto-suchita-pmqcf/?trackingId=HKc99ZaLGen5NqGETwkiXw%3D%3D) demonstrating creative application of ML in collaborative, real-world settings.
 
 ## Selected Publications
 ### Long-Lived Particle Searches at the LHC
