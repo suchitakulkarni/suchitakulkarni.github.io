@@ -1,57 +1,73 @@
-# Machine Learning Engineer: Physics-Informed and Structure-Aware Modeling
+# Machine Learning Engineer. Physics-Informed and Structure-Aware Modeling
 
-I am a machine learning engineer with a background in theoretical physics, working on models that integrate physical structure, constraints, and domain knowledge into learning systems. My experience spans time-series modeling, anomaly detection, generative models, and physics-informed neural networks. I have led research teams, built production-grade scientific software, and enjoy translating physically motivated ideas into robust ML pipelines. I am particularly interested in data-efficient learning for dynamical systems and hybrid physics–ML approaches.
+## About
+Physics-trained ML engineer working on time-series modeling, anomaly detection, and generative models with physical constraints. Experienced in leading research teams, building widely used scientific software, and translating domain knowledge into robust ML systems. Interested in data-efficient learning for dynamical systems and hybrid physics–ML approaches.
 
-## Education
-- Habilitation, Physics | The University of Graz (_June 2021_)  		
-- Ph.D., Physics | The University of Bonn (_August 2007_)								       		
-- M.Sc., Physics	| The University Mumbai (_May 2006_)	 			        		
+## Experience
 
-## Work Experience
 **ML and Physics Research Leadership (2011–Present)**
-- Universities and research institutes in Austria, France, and Germany
-- Led multi-year projects connecting physics-based models with large-scale experimental and simulated data.
-- Managed over €1.3M in competitive funding and supervised interdisciplinary teams.
-- Designed, developed, and maintained public Python-based scientific software used internationally.
-- Invited speaker at conferences, workshops, and applied ML meetups.
-- Lead developer of public data analysis code [SMoldeS](https://smodels.github.io/) written in **Python**
+Austria, France, Germany
 
-## Data Science Projects
+- Led physics-driven ML projects on large experimental and simulated datasets
+- Managed €1.3M+ in competitive funding and supervised interdisciplinary teams
+- Lead developer of widely used Python scientific software (SMoldeS)
+- Regular invited speaker at conferences, workshops, and applied ML meetups
+
+## Selected Projects
 ### Physics-Aware Latency Prediction and Network Anomaly Detection
-- [Documentation and code](https://physics-informed-latency-pred.streamlit.app/) 
-- Developed a physics-aware framework for latency prediction and anomaly detection in networked systems, incorporating structural constraints and domain-specific signal behavior. Focused on separating physically plausible deviations from noise-driven artifacts. The project emphasizes interpretability and robustness over purely black-box accuracy.
+- [Demo and code](https://physics-informed-latency-pred.streamlit.app/) 
+
+- Physics-aware anomaly detection for networked systems
+- Improved sensitivity to rare, physically meaningful anomalies while stabilizing false-positive rates
+- Emphasis on interpretability and operational robustness
 
 ### Physics-Informed Variational Autoencoder for Signal Generation
-- Implemented a variational autoencoder incorporating physics-inspired latent structure for signal generation in dynamical systems. Investigated how inductive biases influence latent disentanglement and generalization beyond training distributions. Highlights trade-offs between expressivity and physical consistency.
+
+[Code]
+
+- VAE with physics-inspired latent structure for dynamical signals
+- Enabled generation of physically consistent synthetic data beyond observed regimes
+- Explored trade-offs between expressivity and physical consistency
 
 ### Physics-Aware LSTM for Anomaly Detection
-- [Documentation and code](https://pinnlearning.streamlit.app/)
-- Designed an LSTM-based anomaly detection model guided by physical intuition about temporal dependencies and system dynamics. Explored how architectural and training choices affect sensitivity to rare but meaningful deviations in time-series data. Serves as a bridge between standard deep learning approaches and physics-informed modeling.
 
-### Remaining Useful Life Prediction on NASA Turbofan Data
-- [Documentation and code](https://nasaruldashboard.streamlit.app/) 
-- Framed remaining useful life estimation as a structured time-series prediction problem, preserving unit-level dependencies and temporal coherence. Built a regression pipeline with uncertainty-aware predictions using gradient boosting and automated hyperparameter optimization. Emphasis was placed on evaluation protocols that reflect operational decision-making.
+- [Demo and code](https://pinnlearning.streamlit.app/)
+- LSTM architecture guided by physical intuition about temporal dynamics
+- More stable detection of rare anomalies compared to unconstrained baselines
+- Bridge between black-box deep learning and physics-informed modeling
+
+### Remaining Useful Life Prediction (NASA Turbofan Data)
+
+- [Demo and code](https://nasaruldashboard.streamlit.app/) 
+- Structured time-series modeling preserving unit-level dependencies
+- Uncertainty-aware RUL estimates using gradient boosting and automated tuning
+- Focus on evaluation aligned with maintenance decision-making
 
 ### Agentic Framework for Music Analysis and Recommendation
-- Built an agent-based analysis pipeline for exploratory music data analysis and content-based recommendation. Focused on modular design, decision logic, and interpretability rather than end-to-end optimization. Demonstrates interest in agentic ML systems beyond traditional predictive tasks.
+- Modular agent-based pipeline for exploratory analysis and recommendation
+- Focus on decision logic and interpretability over end-to-end optimization
+- Demonstrates interest in agentic ML system design
 
 ## Talks and Community
-- Invited and meetup talks on physics-informed machine learning and applied modeling.
-- Recent online talk on physics-informed ML for dynamical systems. [Slide deck](https://github.com/suchitakulkarni/PINN_talk/blob/main/PINN_slides.pdf)
-- Active volunteer with Women in AI, supporting community-building and knowledge sharing. 
 
-## Publications
-### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $$\sqrt{s} = 13$$ TeV
-[Publication](https://doi.org/10.1007/JHEP05(2023)228)
+- Invited and meetup talks on physics-informed ML
+- Recent online talk on PIML for dynamical systems. [Slides](https://github.com/suchitakulkarni/PINN_talk/blob/main/PINN_slides.pdf)
+- Member of Styrian vision group of the Women in AI, Austria 
 
-Performed numerical simulations and created visualisations using **Python** for search optimisation. This led to more refined definitions of search parameters and impacted fundamental search and data collection design. 
+## Selected Publications
+### Long-Lived Particle Searches at the LHC
 
-### Theory, phenomenology, and experimental avenues for dark showers: a Snowmass 2021 report
-[Publication](https://doi.org/10.1140/epjc/s10052-022-11048-8)
+[Publication]
+- Python-based simulation and visualization for search optimization
+- Influenced parameter choices and experimental search strategies
 
-**Co-ordinated** a team of 50+ scientists to collect, organise and analyse the field of specific dark matter models. **Created and edited** final report design. Contributed to the report by bringing in fundamental understanding of these dark matter models and provided new direction to the field. 
+### Snowmass 2021 Dark Showers Report
+[Publication]
+- Coordinated 50+ researchers across theory and experiment
+- Shaped field-level synthesis and research directions
 
-### Constraining new physics with SModelS version 2
-[Publication](https://doi.org/10.1007/JHEP08(2022)068) 
+### SModelS v2
 
-Designed a new and improved version of public code [SMoldeS](https://smodels.github.io/) written in **Python**. The code accounts for over hundres new physics searches and accelerates the process of understanding the nature of dark matter.
+[Publication · Code]
+- Lead architect of Python codebase covering 100+ new-physics searches
+- Accelerated interpretation of collider constraints on dark matter models
