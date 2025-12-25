@@ -1,6 +1,7 @@
-# Data Scientist
+# Machine Learning Engineer: Physics-Informed and Structure-Aware Modeling
 
-#### Technical Skills: Python (incl. scipy, numpy, pandas, scikit-learn, jupyter notebook, streamlit), Mathematica, Linux, Mac, GitHub, C++, LaTex
+
+#### I am a machine learning engineer with a background in theoretical physics, working on models that integrate physical structure, constraints, and domain knowledge into learning systems. My experience spans time-series modeling, anomaly detection, generative models, and physics-informed neural networks. I have led research teams, built production-grade scientific software, and enjoy translating physically motivated ideas into robust ML pipelines. I am particularly interested in data-efficient learning for dynamical systems and hybrid physics–ML approaches.
 
 ## Education
 - Habilitation, Physics | The University of Graz (_June 2021_)  		
