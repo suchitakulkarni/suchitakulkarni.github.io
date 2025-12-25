@@ -16,14 +16,11 @@ Austria, France, Germany
 ## Selected Projects
 ### Physics-Aware Latency Prediction and Network Anomaly Detection
 - [Demo and code](https://physics-informed-latency-pred.streamlit.app/) 
-
 - Physics-aware anomaly detection for networked systems
 - Improved sensitivity to rare, physically meaningful anomalies while stabilizing false-positive rates
 - Emphasis on interpretability and operational robustness
 
 ### Physics-Informed Variational Autoencoder for Signal Generation
-
-[Code]
 
 - VAE with physics-inspired latent structure for dynamical signals
 - Enabled generation of physically consistent synthetic data beyond observed regimes
