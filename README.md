@@ -56,18 +56,16 @@ Austria, France, Germany
 
 ## Selected Publications
 ### Long-Lived Particle Searches at the LHC
-
-[Publication]
+[Publication](https://doi.org/10.1007/JHEP05(2023)228)
 - Python-based simulation and visualization for search optimization
 - Influenced parameter choices and experimental search strategies
 
 ### Snowmass 2021 Dark Showers Report
-[Publication]
+[Publication](https://doi.org/10.1140/epjc/s10052-022-11048-8)
 - Coordinated 50+ researchers across theory and experiment
 - Shaped field-level synthesis and research directions
 
-### SModelS v2
-
-[Publication · Code]
+### Constraining new physics with SModelS version 2
+[Publication](https://doi.org/10.1007/JHEP08(2022)068) 
 - Lead architect of Python codebase covering 100+ new-physics searches
 - Accelerated interpretation of collider constraints on dark matter models
