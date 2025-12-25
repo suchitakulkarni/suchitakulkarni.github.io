@@ -35,6 +35,11 @@ I am a machine learning engineer with a background in theoretical physics, worki
 ### Agentic Framework for Music Analysis and Recommendation
 - Built an agent-based analysis pipeline for exploratory music data analysis and content-based recommendation. Focused on modular design, decision logic, and interpretability rather than end-to-end optimization. Demonstrates interest in agentic ML systems beyond traditional predictive tasks.
 
+## Talks and Community
+- Invited and meetup talks on physics-informed machine learning and applied modeling.
+- Recent online talk on physics-informed ML for dynamical systems. [Slide deck](https://github.com/suchitakulkarni/PINN_talk/blob/main/PINN_slides.pdf)
+- Active volunteer with Women in AI, supporting community-building and knowledge sharing. 
+
 ## Publications
 ### Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $$\sqrt{s} = 13$$ TeV
 [Publication](https://doi.org/10.1007/JHEP05(2023)228)
