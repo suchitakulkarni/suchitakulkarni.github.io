@@ -15,15 +15,11 @@ show_downloads: false
 navigation:
   - name: Homepage
     link: ./index.html
-  - name: Taylor Swift music analysis
-    link: ./projects/Taylor_Swift_dataanalysis.html
-  - name: Taylor Swift music analysis (content recommendation system)
-    link: ./projects/T_Swift_Finale.html
-  - name: PCOS analysis
-    link: ./projects/PCOS.html
-  - name: Anomaly detection app
+  - name: Physics-Aware Latency Prediction and Network Anomaly Detection
+    link: https://physics-informed-latency-pred.streamlit.app/
+  - name: Physics-Aware LSTM for Anomaly Detection
     link: https://pinnlearning.streamlit.app/
-  - name: predictive maintainance (NASA remaining unit life)
+  - name: Remaining Useful Life Prediction on NASA Turbofan Data
     link: https://nasaruldashboard.streamlit.app/
     
     

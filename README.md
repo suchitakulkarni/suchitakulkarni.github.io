@@ -18,13 +18,14 @@ I am a machine learning engineer with a background in theoretical physics, worki
 
 ## Data Science Projects
 ### Physics-Aware Latency Prediction and Network Anomaly Detection
-- [Documentation and code]() 
+- [Documentation and code](https://physics-informed-latency-pred.streamlit.app/) 
 - Developed a physics-aware framework for latency prediction and anomaly detection in networked systems, incorporating structural constraints and domain-specific signal behavior. Focused on separating physically plausible deviations from noise-driven artifacts. The project emphasizes interpretability and robustness over purely black-box accuracy.
 
 ### Physics-Informed Variational Autoencoder for Signal Generation
 - Implemented a variational autoencoder incorporating physics-inspired latent structure for signal generation in dynamical systems. Investigated how inductive biases influence latent disentanglement and generalization beyond training distributions. Highlights trade-offs between expressivity and physical consistency.
 
 ### Physics-Aware LSTM for Anomaly Detection
+- [Documentation and code](https://pinnlearning.streamlit.app/)
 - Designed an LSTM-based anomaly detection model guided by physical intuition about temporal dependencies and system dynamics. Explored how architectural and training choices affect sensitivity to rare but meaningful deviations in time-series data. Serves as a bridge between standard deep learning approaches and physics-informed modeling.
 
 ### Remaining Useful Life Prediction on NASA Turbofan Data
