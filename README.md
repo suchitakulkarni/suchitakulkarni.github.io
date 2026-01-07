@@ -8,7 +8,7 @@ Physics-trained ML engineer working on time-series modeling, anomaly detection, 
 **ML and Physics Research Leadership (2011–Present)**
 Austria, France, Germany
 
-- Led physics-driven ML projects on large experimental and simulated datasets
+- Led physics-driven ML projects and large scale physics projects on real-life data
 - Managed €1.3M+ in competitive funding and supervised interdisciplinary teams
 - Lead developer of widely used Python scientific software (SMoldeS)
 - Regular invited speaker at conferences, workshops, and applied ML meetups
