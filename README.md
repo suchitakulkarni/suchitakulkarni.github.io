@@ -18,7 +18,7 @@ Austria, France, Germany
 ### Physics-Aware LSTM for Anomaly Classification
 
 - [Demo and code](https://github.com/suchitakulkarni/anomaly_classification)
-- Achieved 57\% Mahalanobis distance metric improvement for anomaly type cluster separation with physics constraints over baseline LSTM
+- Achieved 57% Mahalanobis distance metric improvement for anomaly type cluster separation with physics constraints over baseline LSTM
 - Built 2D diagnostic landscape separating reconstruction and physics loss for failure mode classification using PyTorch
 - Documented decision framework as a 10-part public technical series reaching 50k+ impressions
 - Tech Stack: pandas, PyTorch, scikit-learn, Streamlit
