@@ -14,36 +14,36 @@ Austria, France, Germany
 - Regular invited speaker at conferences, workshops, and applied ML meetups
 
 ## Selected Projects
+
+### Physics-Aware LSTM for Anomaly Classification
+
+- [Demo and code](https://github.com/suchitakulkarni/anomaly_classification)
+- Achieved 57\% Mahalanobis distance metric improvement for anomaly type cluster separation with physics constraints over baseline LSTM
+- Built 2D diagnostic landscape separating reconstruction and physics loss for failure mode classification using PyTorch
+- Documented decision framework as a 10-part public technical series reaching 50k+ impressions
+- Tech Stack: pandas, PyTorch, scikit-learn, Streamlit
+
+### Agentic Framework for Music Analysis and Recommendation
+
+- [Code](https://github.com/suchitakulkarni/agentic_music_recommender_system)
+- Designed constrained LLM reasoning architecture grounding every recommendation in data fields, preventing hallucination while preserving human-readable explanations
+- Built hybrid system combining Spotify audio features with semantic topic modeling across 153 songs and 5 distinct musical eras
+- Engineered agentic retrieval pipeline with explainability as a first-class requirement, not a post-hoc label
+- Tech Stack: pandas, hdbscan, sentence transformers, PyTorch, scikit-learn, ollama, openai, Streamlit
+  
+### Remaining Useful Life Prediction (NASA Turbofan Data)
+
+- [Demo and code](https://nasaruldashboard.streamlit.app/) 
+- Structured time-series modeling preserving unit-level dependencies
+- Uncertainty-aware RUL estimates using gradient boosting and automated tuning
+- Focus on evaluation aligned with maintenance decision-making 
+
 ### Physics-Aware Latency Prediction and Network Anomaly Detection
 - [Demo and code](https://physics-informed-latency-pred.streamlit.app/) 
 - Physics-aware anomaly detection for networked systems
 - Improved sensitivity to rare, physically meaningful anomalies while stabilizing false-positive rates
 - Emphasis on interpretability and operational robustness
 
-### Physics-Informed Variational Autoencoder for Signal Generation
-
-- VAE with physics-inspired latent structure for dynamical signals
-- Enabled generation of physically consistent synthetic data beyond observed regimes
-- Explored trade-offs between expressivity and physical consistency
-
-### Physics-Aware LSTM for Anomaly Detection
-
-- [Demo and code](https://pinnlearning.streamlit.app/)
-- LSTM architecture guided by physical intuition about temporal dynamics
-- More stable detection of rare anomalies compared to unconstrained baselines
-- Bridge between black-box deep learning and physics-informed modeling
-
-### Remaining Useful Life Prediction (NASA Turbofan Data)
-
-- [Demo and code](https://nasaruldashboard.streamlit.app/) 
-- Structured time-series modeling preserving unit-level dependencies
-- Uncertainty-aware RUL estimates using gradient boosting and automated tuning
-- Focus on evaluation aligned with maintenance decision-making
-
-### Agentic Framework for Music Analysis and Recommendation
-- Modular agent-based pipeline for exploratory analysis and recommendation
-- Focus on decision logic and interpretability over end-to-end optimization
-- Demonstrates interest in agentic ML system design
 
 ## Talks and Community
 
