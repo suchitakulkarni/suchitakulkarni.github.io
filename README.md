@@ -33,17 +33,15 @@ Austria, France, Germany
   
 ### Remaining Useful Life Prediction (NASA Turbofan Data)
 
-- [Demo and code](https://nasaruldashboard.streamlit.app/) 
+- [Code](https://github.com/suchitakulkarni/NASA_RUL_Predictions) [Demo](https://nasaruldashboard.streamlit.app/) 
 - Structured time-series modeling preserving unit-level dependencies
 - Uncertainty-aware RUL estimates using gradient boosting and automated tuning
 - Focus on evaluation aligned with maintenance decision-making 
 
-### Physics-Aware Latency Prediction and Network Anomaly Detection
-- [Demo and code](https://physics-informed-latency-pred.streamlit.app/) 
-- Physics-aware anomaly detection for networked systems
-- Improved sensitivity to rare, physically meaningful anomalies while stabilizing false-positive rates
-- Emphasis on interpretability and operational robustness
-
+### Ramachandran Physics-Informed VAE
+- [Code](https://github.com/suchitakulkarni/Ramchandran_dashboard) [Demo](https://protein-conformations.streamlit.app/)
+- Built a first prototype incorporating the favoured/allowed region boundaries incorporated from the Top500 dataset
+- Quantified the sensitivity of the genearted Protein conformations to the variations in the latent space
 
 ## Talks and Community
 
