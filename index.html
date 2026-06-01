@@ -236,16 +236,62 @@
 
     .stat-row .big {
       color: var(--indigo);
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       font-weight: 700;
       line-height: 1;
-      min-width: 64px;
+      min-width: 82px;
+      flex-shrink: 0;
     }
 
     .stat-row .desc {
       color: var(--gray-600);
       font-size: 0.78rem;
       line-height: 1.45;
+    }
+
+    /* ── TECH STACK ── */
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+    }
+
+    .stack-group {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.25rem 1.4rem;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+
+    .stack-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--gray-400);
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      margin-bottom: 0.85rem;
+    }
+
+    .stack-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .stack-tag {
+      background: rgba(99, 102, 241, 0.07);
+      color: var(--navy);
+      border: 1px solid rgba(99, 102, 241, 0.16);
+      border-radius: 6px;
+      padding: 0.25rem 0.6rem;
+      font-size: 0.78rem;
+      font-family: 'SFMono-Regular', Consolas, monospace;
+      font-weight: 500;
+    }
+
+    @media (max-width: 800px) {
+      .stack-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
     /* ── PROJECT CARDS ── */
@@ -281,12 +327,13 @@
     .card-img img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      object-position: top left;
+      object-fit: contain;
+      object-position: center;
+      padding: 0.75rem;
       transition: transform 0.35s;
     }
 
-    .card:hover .card-img img { transform: scale(1.04); }
+    .card:hover .card-img img { transform: scale(1.03); }
 
     .card-img.no-img {
       display: flex;
@@ -545,6 +592,53 @@
   </div>
 </section>
 
+<!-- TECH STACK -->
+<section class="alt">
+  <div class="inner">
+    <h2 class="section-title">Tech Stack</h2>
+    <div class="section-bar"></div>
+    <div class="stack-grid">
+      <div class="stack-group">
+        <div class="stack-label">ML &amp; Deep Learning</div>
+        <div class="stack-tags">
+          <span class="stack-tag">PyTorch</span>
+          <span class="stack-tag">scikit-learn</span>
+          <span class="stack-tag">XGBoost</span>
+          <span class="stack-tag">Optuna</span>
+          <span class="stack-tag">HDBSCAN</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-label">Data &amp; Scientific</div>
+        <div class="stack-tags">
+          <span class="stack-tag">pandas</span>
+          <span class="stack-tag">NumPy</span>
+          <span class="stack-tag">SciPy</span>
+          <span class="stack-tag">Biopython</span>
+          <span class="stack-tag">SModelS</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-label">LLM &amp; NLP</div>
+        <div class="stack-tags">
+          <span class="stack-tag">OpenAI API</span>
+          <span class="stack-tag">Ollama</span>
+          <span class="stack-tag">sentence-transformers</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-label">Deployment &amp; Viz</div>
+        <div class="stack-tags">
+          <span class="stack-tag">Streamlit</span>
+          <span class="stack-tag">Matplotlib</span>
+          <span class="stack-tag">Seaborn</span>
+          <span class="stack-tag">GitHub Pages</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- PROJECTS -->
 <section class="alt">
   <div class="inner">
@@ -678,7 +772,7 @@
 </section>
 
 <!-- PUBLICATIONS -->
-<section class="alt">
+<section>
   <div class="inner">
     <h2 class="section-title">Selected Publications</h2>
     <div class="section-bar"></div>
