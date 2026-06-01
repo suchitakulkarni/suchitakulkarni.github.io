@@ -1,4 +1,4 @@
-# Machine Learning Engineer — Physics-Informed and Structure-Aware Modeling
+# ML Research Engineer — Physics-Informed and Structure-Aware Modeling
 
 ## About
 Physics-trained ML engineer with 15 years spanning experimental physics and applied ML. I work on systems where domain structure matters: time-series, anomaly detection, and generative modeling with physical constraints. Previously led interdisciplinary research teams across Europe, managed €1.3M+ in competitive funding, and authored widely used scientific Python tooling (SMoldeS). Regular invited speaker on physics-informed ML.
