@@ -555,6 +555,74 @@
     .talk-list a { color: var(--indigo); text-decoration: none; }
     .talk-list a:hover { text-decoration: underline; }
 
+    /* ── WRITING ── */
+    .writing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .writing-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid #e2e8f0;
+      border-top: 3px solid var(--indigo);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .writing-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(99,102,241,0.1);
+    }
+
+    .writing-tag {
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: var(--indigo);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.6rem;
+    }
+
+    .writing-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.4;
+      margin-bottom: 0.75rem;
+    }
+
+    .writing-title a { color: inherit; text-decoration: none; }
+    .writing-title a:hover { color: var(--indigo); }
+
+    .writing-desc {
+      font-size: 0.84rem;
+      color: var(--gray-600);
+      line-height: 1.65;
+      flex: 1;
+      margin-bottom: 1rem;
+    }
+
+    .writing-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--indigo);
+      text-decoration: none;
+    }
+
+    .writing-link:hover { color: var(--indigo-lt); }
+
+    @media (max-width: 800px) {
+      .writing-grid { grid-template-columns: 1fr; }
+    }
+
     /* ── PUBLICATIONS ── */
     .pub-item {
       padding: 1.25rem 0;
@@ -918,13 +986,63 @@
       <li>Online talk on physics-informed ML for dynamical systems — <a href="https://github.com/suchitakulkarni/PINN_talk/blob/main/PINN_slides.pdf" target="_blank">Slides</a></li>
       <li>Invited and meetup talks on physics-informed ML across Europe</li>
       <li>Co-organiser of the Women in AI, Austria Styrian meetups</li>
-      <li>Created AI-generated TedXGraz theme song; process documented in a <a href="https://www.linkedin.com/pulse/ai-composed-song-unexpected-team-sideways-entry-onto-suchita-pmqcf/?trackingId=HKc99ZaLGen5NqGETwkiXw%3D%3D" target="_blank">LinkedIn article</a></li>
+      <li>Created AI-generated theme song for TEDxGraz using generative ML tools</li>
     </ul>
   </div>
 </section>
 
-<!-- PUBLICATIONS -->
+<!-- WRITING -->
 <section class="alt">
+  <div class="inner">
+    <h2 class="section-title">Writing</h2>
+    <div class="section-bar"></div>
+    <div class="writing-grid">
+
+      <div class="writing-card">
+        <div class="writing-tag">Technical Series &middot; 50k+ impressions</div>
+        <div class="writing-title">
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7417511347107627008/" target="_blank">
+            Physics-Informed ML for Anomaly Detection: 10-Part Series
+          </a>
+        </div>
+        <p class="writing-desc">End-to-end technical walkthrough of building a physics-informed LSTM for anomaly classification: architecture choices, the 2D diagnostic loss landscape, and evaluation across 9 anomaly types.</p>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7417511347107627008/" class="writing-link" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> Read on LinkedIn
+        </a>
+      </div>
+
+      <div class="writing-card">
+        <div class="writing-tag">PM Perspective</div>
+        <div class="writing-title">
+          <a href="https://www.linkedin.com/pulse/break-physicists-2am-guide-physics-informed-ml-suchita-kulkarni-ziu0f/" target="_blank">
+            A Physicist's 2AM Guide to Physics-Informed ML
+          </a>
+        </div>
+        <p class="writing-desc">What the anomaly detection project looks like from a product angle: the decisions made, what the performance improvement actually means operationally, and how physics constraints change the conversation about model trust.</p>
+        <a href="https://www.linkedin.com/pulse/break-physicists-2am-guide-physics-informed-ml-suchita-kulkarni-ziu0f/" class="writing-link" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> Read on LinkedIn
+        </a>
+      </div>
+
+      <div class="writing-card">
+        <div class="writing-tag">Creative ML</div>
+        <div class="writing-title">
+          <a href="https://www.linkedin.com/pulse/ai-composed-song-unexpected-team-sideways-entry-onto-suchita-pmqcf/" target="_blank">
+            An AI-Composed Song: A Sideways Entry onto the TEDxGraz Stage
+          </a>
+        </div>
+        <p class="writing-desc">Behind the scenes of creating an AI-generated theme song for TEDxGraz: the process, the tools, and what building something creative with ML teaches about its actual capabilities and limits.</p>
+        <a href="https://www.linkedin.com/pulse/ai-composed-song-unexpected-team-sideways-entry-onto-suchita-pmqcf/" class="writing-link" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> Read on LinkedIn
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section>
   <div class="inner">
     <h2 class="section-title">Selected Publications</h2>
     <div class="section-bar"></div>
@@ -944,7 +1062,7 @@
 </section>
 
 <!-- CONTACT -->
-<section>
+<section class="alt">
   <div class="contact-inner">
     <h2 class="section-title">Get in Touch</h2>
     <div class="section-bar"></div>
