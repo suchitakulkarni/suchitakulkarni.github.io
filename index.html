@@ -165,15 +165,22 @@
     }
     .btn-outline:hover { background: rgba(255,255,255,0.08); transform: translateY(-2px); }
 
-    .hero-photo { flex-shrink: 0; }
-
-    .hero-photo img {
+    .hero-photo {
+      flex-shrink: 0;
       width: 270px;
       height: 270px;
       border-radius: 50%;
-      object-fit: cover;
+      overflow: hidden;
       border: 3px solid rgba(99, 102, 241, 0.5);
       box-shadow: 0 0 70px rgba(99, 102, 241, 0.22);
+      background: #0f172a;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
     }
 
     /* ── SECTIONS ── */
