@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suchita Kulkarni, PhD — ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --navy:        #0f172a;
+      --navy-light:  #1e293b;
+      --indigo:      #6366f1;
+      --indigo-lt:   #818cf8;
+      --teal:        #14b8a6;
+      --teal-dark:   #0d9488;
+      --white:       #ffffff;
+      --gray-50:     #f8fafc;
+      --gray-100:    #f1f5f9;
+      --gray-400:    #94a3b8;
+      --gray-600:    #475569;
+      --gray-800:    #1e293b;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(15, 23, 42, 0.96);
+      backdrop-filter: blur(10px);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+      border-bottom: 1px solid rgba(99, 102, 241, 0.2);
+    }
+
+    nav .name {
+      color: var(--white);
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    nav .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    nav .nav-links a {
+      color: var(--gray-400);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    nav .nav-links a:hover { color: var(--white); }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      background-image:
+        radial-gradient(ellipse at 15% 60%, rgba(99, 102, 241, 0.18) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 40%, rgba(20, 184, 166, 0.12) 0%, transparent 55%);
+      padding: 5rem 2rem 4.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 82vh;
+    }
+
+    .hero-inner {
+      max-width: 1100px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+    }
+
+    .hero-text { flex: 1; }
+
+    .hero-role {
+      color: var(--indigo-lt);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text h1 {
+      color: var(--white);
+      font-size: clamp(2rem, 4vw, 3.1rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-text h1 span { color: var(--indigo-lt); }
+
+    .hero-tagline {
+      color: var(--gray-400);
+      font-size: 1.05rem;
+      line-height: 1.75;
+      margin-bottom: 2rem;
+      max-width: 480px;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .stat-number {
+      color: var(--white);
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .stat-label {
+      color: var(--gray-400);
+      font-size: 0.72rem;
+      margin-top: 0.3rem;
+      line-height: 1.4;
+    }
+
+    .hero-links { display: flex; gap: 0.875rem; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.7rem 1.4rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .btn-primary { background: var(--indigo); color: var(--white); }
+    .btn-primary:hover { background: var(--indigo-lt); transform: translateY(-2px); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.08); transform: translateY(-2px); }
+
+    .hero-photo { flex-shrink: 0; }
+
+    .hero-photo img {
+      width: 270px;
+      height: 270px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(99, 102, 241, 0.5);
+      box-shadow: 0 0 70px rgba(99, 102, 241, 0.22);
+    }
+
+    /* ── SECTIONS ── */
+    section { padding: 5rem 2rem; }
+    section.alt { background: var(--gray-50); }
+
+    .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .section-bar {
+      width: 36px;
+      height: 3px;
+      background: var(--indigo);
+      border-radius: 2px;
+      margin-bottom: 2.5rem;
+    }
+
+    /* ── ABOUT ── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .about-text p {
+      color: var(--gray-600);
+      line-height: 1.85;
+      font-size: 0.975rem;
+      margin-bottom: 1rem;
+    }
+
+    .stat-box {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    }
+
+    .stat-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    .stat-row:last-child { border-bottom: none; }
+
+    .stat-row .big {
+      color: var(--indigo);
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1;
+      min-width: 64px;
+    }
+
+    .stat-row .desc {
+      color: var(--gray-600);
+      font-size: 0.78rem;
+      line-height: 1.45;
+    }
+
+    /* ── PROJECT CARDS ── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.75rem;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07), 0 4px 16px rgba(0,0,0,0.03);
+      transition: transform 0.25s, box-shadow 0.25s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(99, 102, 241, 0.13), 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .card-img {
+      width: 100%;
+      height: 210px;
+      overflow: hidden;
+      background: var(--navy-light);
+    }
+
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top left;
+      transition: transform 0.35s;
+    }
+
+    .card:hover .card-img img { transform: scale(1.04); }
+
+    .card-img.no-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      font-size: 3.5rem;
+      color: rgba(99, 102, 241, 0.35);
+    }
+
+    .card-body {
+      padding: 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-title {
+      font-size: 1.02rem;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 0.75rem;
+      line-height: 1.35;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .badge {
+      border-radius: 20px;
+      padding: 0.2rem 0.65rem;
+      font-size: 0.73rem;
+      font-weight: 500;
+    }
+
+    .badge-indigo {
+      background: rgba(99, 102, 241, 0.08);
+      color: var(--indigo);
+      border: 1px solid rgba(99, 102, 241, 0.22);
+    }
+
+    .badge-teal {
+      background: rgba(20, 184, 166, 0.08);
+      color: var(--teal-dark);
+      border: 1px solid rgba(20, 184, 166, 0.25);
+    }
+
+    .card-desc {
+      color: var(--gray-600);
+      font-size: 0.865rem;
+      line-height: 1.65;
+      flex: 1;
+      margin-bottom: 1.25rem;
+    }
+
+    .card-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.9rem;
+    }
+
+    .card-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      color: var(--indigo);
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .card-links a:hover { color: var(--indigo-lt); }
+
+    .tech-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .tech {
+      background: var(--gray-100);
+      color: var(--gray-600);
+      border-radius: 4px;
+      padding: 0.15rem 0.5rem;
+      font-size: 0.68rem;
+      font-family: 'SFMono-Regular', Consolas, monospace;
+    }
+
+    /* ── TALKS ── */
+    .talk-list { list-style: none; }
+
+    .talk-list li {
+      display: flex;
+      gap: 0.9rem;
+      padding: 0.95rem 0;
+      border-bottom: 1px solid #e2e8f0;
+      color: var(--gray-600);
+      font-size: 0.925rem;
+      line-height: 1.6;
+    }
+
+    .talk-list li:last-child { border-bottom: none; }
+
+    .talk-list li::before {
+      content: "→";
+      color: var(--indigo);
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    .talk-list a { color: var(--indigo); text-decoration: none; }
+    .talk-list a:hover { text-decoration: underline; }
+
+    /* ── PUBLICATIONS ── */
+    .pub-item {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .pub-item:last-child { border-bottom: none; }
+
+    .pub-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .pub-title a { color: var(--navy); text-decoration: none; }
+    .pub-title a:hover { color: var(--indigo); }
+
+    .pub-desc {
+      color: var(--gray-600);
+      font-size: 0.84rem;
+      line-height: 1.6;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy);
+      padding: 2.5rem;
+      text-align: center;
+      color: var(--gray-400);
+      font-size: 0.85rem;
+    }
+
+    footer .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    footer a {
+      color: var(--gray-400);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: color 0.2s;
+    }
+
+    footer a:hover { color: var(--white); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 800px) {
+      .hero-inner { flex-direction: column-reverse; text-align: center; gap: 2rem; }
+      .hero-photo img { width: 190px; height: 190px; }
+      .hero-stats { justify-content: center; }
+      .hero-links { justify-content: center; }
+      .hero-tagline { max-width: 100%; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+      nav .name { font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <span class="name">Suchita Kulkarni, PhD</span>
+  <div class="nav-links">
+    <a href="https://github.com/suchitakulkarni" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/suchitakulkarni" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-role">Machine Learning Engineer</div>
+      <h1>Physics-Informed<br><span>Structure-Aware</span><br>ML Systems</h1>
+      <p class="hero-tagline">Physicist-turned-ML engineer specializing in systems where domain structure matters — time-series, anomaly detection, and generative modeling with physical constraints.</p>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-number">15+</div>
+          <div class="stat-label">Years of<br>Research</div>
+        </div>
+        <div>
+          <div class="stat-number">€1.3M+</div>
+          <div class="stat-label">Competitive<br>Funding</div>
+        </div>
+        <div>
+          <div class="stat-number">50k+</div>
+          <div class="stat-label">Technical<br>Impressions</div>
+        </div>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com/suchitakulkarni" class="btn btn-primary" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/suchitakulkarni" class="btn btn-outline" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/img/kulkarni_photo.jpg" alt="Suchita Kulkarni">
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <div class="inner">
+    <h2 class="section-title">About</h2>
+    <div class="section-bar"></div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I work at the intersection of physics and machine learning — building systems where domain knowledge isn't decorative, but structurally load-bearing. My background spans experimental particle physics, scientific software development, and applied ML across industry-relevant problems.</p>
+        <p>Previously I led interdisciplinary research teams across Austria, France, and Germany; managed €1.3M+ in competitive funding; and built <strong>SMoldeS</strong>, a widely adopted Python toolkit for new-physics searches at the LHC. I now focus on uncertainty-aware prediction, physics-constrained generative models, and agentic ML systems.</p>
+        <p>I'm a member of the Women in AI Styrian vision group and a regular speaker at applied ML meetups and international workshops.</p>
+      </div>
+      <div class="stat-box">
+        <div class="stat-row">
+          <div class="big">15+</div>
+          <div class="desc">Years spanning experimental physics and applied ML</div>
+        </div>
+        <div class="stat-row">
+          <div class="big">€1.3M+</div>
+          <div class="desc">Competitive funding managed across EU research programs</div>
+        </div>
+        <div class="stat-row">
+          <div class="big">50+</div>
+          <div class="desc">Researchers coordinated for the Snowmass Dark Showers report</div>
+        </div>
+        <div class="stat-row">
+          <div class="big">100+</div>
+          <div class="desc">New-physics searches covered in the SModelS v2 codebase</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="alt">
+  <div class="inner">
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="section-bar"></div>
+    <div class="cards-grid">
+
+      <!-- Anomaly Classification -->
+      <div class="card">
+        <div class="card-img">
+          <img src="https://raw.githubusercontent.com/suchitakulkarni/anomaly_classification/main/results/2d_scatter_comparison.png"
+               alt="2D diagnostic landscape: physics-informed vs standard LSTM" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-title">Physics-Aware LSTM for Anomaly Classification</div>
+          <div class="badges">
+            <span class="badge badge-indigo">77% detection rate</span>
+            <span class="badge badge-indigo">61% classification accuracy</span>
+            <span class="badge badge-teal">ARI 0.42 vs 0.31</span>
+          </div>
+          <p class="card-desc">2D diagnostic landscape combining reconstruction and physics loss to classify 9 anomaly types without labeled anomalies. Physics-informed kNN outperforms standard baseline by 21 pp on detection rate. Decision framework documented in a 10-part public series reaching 50k+ impressions.</p>
+          <div class="card-links">
+            <a href="https://github.com/suchitakulkarni/anomaly_classification" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://pinnlearning.streamlit.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+          </div>
+          <div class="tech-row">
+            <span class="tech">PyTorch</span>
+            <span class="tech">scikit-learn</span>
+            <span class="tech">NumPy</span>
+            <span class="tech">Streamlit</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- NASA RUL -->
+      <div class="card">
+        <div class="card-img">
+          <img src="https://raw.githubusercontent.com/suchitakulkarni/NASA_RUL_Predictions/main/results/evaluation/business_summary.png"
+               alt="RUL prediction business impact summary" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-title">Remaining Useful Life Prediction — NASA Turbofan</div>
+          <div class="badges">
+            <span class="badge badge-indigo">RMSE 14–16 (↓ from 18–20)</span>
+            <span class="badge badge-teal">&gt;50% maintenance cost reduction</span>
+          </div>
+          <p class="card-desc">Physics-grounded feature engineering — condition-normalized sensors (KMeans, 6 clusters), rolling statistics, monotone RUL constraint — combined with XGBoost + Optuna tuning. Uncertainty via split conformal prediction (90% coverage). Evaluated on cost-based metrics across all 4 CMAPSS datasets.</p>
+          <div class="card-links">
+            <a href="https://github.com/suchitakulkarni/NASA_RUL_Predictions" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://nasaruldashboard.streamlit.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+          </div>
+          <div class="tech-row">
+            <span class="tech">XGBoost</span>
+            <span class="tech">Optuna</span>
+            <span class="tech">scikit-learn</span>
+            <span class="tech">pandas</span>
+            <span class="tech">Streamlit</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ramachandran VAE -->
+      <div class="card">
+        <div class="card-img">
+          <img src="https://raw.githubusercontent.com/suchitakulkarni/Ramchandran_dashboard/main/results/plots/stage6_original_entropy_compliance.png"
+               alt="Ramachandran compliance: physics VAE vs standard VAE" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-title">Ramachandran Physics-Informed VAE</div>
+          <div class="badges">
+            <span class="badge badge-indigo">0.82 Lovell compliance</span>
+            <span class="badge badge-teal">Cohen's d = 0.905</span>
+            <span class="badge badge-indigo">All 3 islands recovered</span>
+          </div>
+          <p class="card-desc">Standard VAE collapses to 1D on imbalanced protein data; a differentiable PyTorch GMM penalty recovers all three Ramachandran islands. Latent perturbation across 6 sigma levels confirms 100% win rate in phi stability. Dataset: 1,333–3,335 samples from 5 structurally diverse PDB proteins.</p>
+          <div class="card-links">
+            <a href="https://github.com/suchitakulkarni/Ramchandran_dashboard" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://protein-conformations.streamlit.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+          </div>
+          <div class="tech-row">
+            <span class="tech">PyTorch</span>
+            <span class="tech">Biopython</span>
+            <span class="tech">scikit-learn</span>
+            <span class="tech">Streamlit</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Music Recommender -->
+      <div class="card">
+        <div class="card-img no-img">
+          <i class="fa-solid fa-network-wired"></i>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Agentic Framework for Music Analysis &amp; Recommendation</div>
+          <div class="badges">
+            <span class="badge badge-indigo">153 songs · 5 musical eras</span>
+            <span class="badge badge-teal">Hallucination-free LLM</span>
+          </div>
+          <p class="card-desc">Constrained LLM reasoning architecture that grounds every recommendation in structured audio features — prevents hallucination while preserving human-readable explanations. Hybrid system combining Spotify audio features with semantic topic modeling (HDBSCAN). Explainability is a first-class design requirement, not a post-hoc label.</p>
+          <div class="card-links">
+            <a href="https://github.com/suchitakulkarni/agentic_music_recommender_system" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+          <div class="tech-row">
+            <span class="tech">Ollama</span>
+            <span class="tech">OpenAI</span>
+            <span class="tech">HDBSCAN</span>
+            <span class="tech">sentence-transformers</span>
+            <span class="tech">PyTorch</span>
+            <span class="tech">Streamlit</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TALKS -->
+<section>
+  <div class="inner">
+    <h2 class="section-title">Talks &amp; Community</h2>
+    <div class="section-bar"></div>
+    <ul class="talk-list">
+      <li>Online talk on physics-informed ML for dynamical systems — <a href="https://github.com/suchitakulkarni/PINN_talk/blob/main/PINN_slides.pdf" target="_blank">Slides</a></li>
+      <li>Invited and meetup talks on physics-informed ML across Europe</li>
+      <li>Member, Women in AI — Styrian Vision Group, Austria</li>
+      <li>Created AI-generated TedXGraz theme song; process documented in a <a href="https://www.linkedin.com/pulse/ai-composed-song-unexpected-team-sideways-entry-onto-suchita-pmqcf/?trackingId=HKc99ZaLGen5NqGETwkiXw%3D%3D" target="_blank">LinkedIn article</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section class="alt">
+  <div class="inner">
+    <h2 class="section-title">Selected Publications</h2>
+    <div class="section-bar"></div>
+    <div class="pub-item">
+      <div class="pub-title"><a href="https://doi.org/10.1007/JHEP05(2023)228" target="_blank">Long-Lived Particle Searches at the LHC ↗</a></div>
+      <div class="pub-desc">Python-based simulation and visualization for search optimization. Influenced parameter choices and experimental search strategies.</div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-title"><a href="https://doi.org/10.1140/epjc/s10052-022-11048-8" target="_blank">Snowmass 2021 Dark Showers Report ↗</a></div>
+      <div class="pub-desc">Coordinated 50+ researchers across theory and experiment. Shaped field-level synthesis and research directions.</div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-title"><a href="https://doi.org/10.1007/JHEP08(2022)068" target="_blank">Constraining New Physics with SModelS Version 2 ↗</a></div>
+      <div class="pub-desc">Lead architect of Python codebase covering 100+ new-physics searches. Accelerated interpretation of collider constraints on dark matter models.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="https://github.com/suchitakulkarni" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/suchitakulkarni" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  </div>
+  <p>Suchita Kulkarni, PhD &nbsp;·&nbsp; ML Engineer</p>
+</footer>
+
+</body>
+</html>
